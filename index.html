@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensuration Caculator</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+  <h1>Mensuration Calculator</h1>
+  <label for="Shapes" class="label">Choose a Shape</label>
+  <select name="shape" id="shape" onchange="{Shape()}">
+    <option value="">Select</option>
+    <option value="Square">Square</option>
+    <option value="Rectangle">Rectangle</option>
+    <option value="Triangle">Triangle</option>
+    <option value="Cube">Cube</option>
+    <option value="Cuboid">Cuboid</option>
+    <option value="Cylinder">Cylinder</option>
+    <option value="Sphere">Sphere</option>
+    <option value="Trapezium">Trapezium</option>
+    </select>  
+  <div class="input_message" id="in">
+  </div>
+  <div class="result" id="result"></div>
+  <script src="index.js"></script>
+</body>
+</html>
